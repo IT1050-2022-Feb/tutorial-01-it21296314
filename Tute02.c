@@ -31,7 +31,7 @@ if ( distance <= 30)
 
 else 
 {
-  amount = 30.00 * 50.00 + ( 50.00 - 30.00 ) * 40;
+  amount = 30.00 * distance + ( distance - 30.00 ) * 40;
 }
   printf ("Amount to be paid is %.2f", amount);
   
